@@ -7,6 +7,11 @@ import java.util.Arrays;
  * push – An item is added to the stack. The newly added item is always placed at its top.
  * pop – Removing an item from the stack. Every pop operation returns the item at the top of the stack. 
  * The item popped out is removed from the stack when this operation is performed.
+ * 
+ * Stack Efficiency:
+ * In the stack, the elements can be push or pop one at a time in constant O(1) time. 
+ * That is, the time is not dependent on how many items are in the stack and is therefore very quick. 
+ * No comparisons or moves are necessary.
  */
 public class Stack {
 	private int size;
