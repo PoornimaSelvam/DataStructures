@@ -2,8 +2,15 @@ package com.datastructures.stack;
 
 import java.util.Arrays;
 
+/**
+ * A linear data structure which stores newly added items at its top and retrieves newly added items from its top. 
+ * push – An item is added to the stack. The newly added item is always placed at its top.
+ * pop – Removing an item from the stack. Every pop operation returns the item at the top of the stack. 
+ * The item popped out is removed from the stack when this operation is performed.
+ */
 public class Stack {
 	private int size;
+	//using array
 	private int[] elements;
 	private int top;
 	
